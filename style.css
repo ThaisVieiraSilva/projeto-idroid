@@ -1,5 +1,18 @@
 #charset "UTF-8";
 
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
+}
+
+body {
+    margin: 0px;
+    background-color: #83E1AD; 
+}
+
 a.externo::after {
     content: "\00A0\1F517"
 }
@@ -20,7 +33,7 @@ header {
 header > h1 {
     font-size: 3em;
     text-align: center;
-    text-shadow: 1px 1px 2px #063D1E;
+    text-shadow: 1px 1px 2px#063D1E;
     padding: 10px;
     margin: 0px 10px;
     font-family: "Bebas neue";
